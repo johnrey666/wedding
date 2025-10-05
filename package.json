@@ -1,0 +1,34 @@
+{
+  "name": "wedding-website",
+  "version": "1.0.0",
+  "description": "A beautiful, responsive wedding website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "wedding",
+    "website",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/wedding-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/wedding-website/issues"
+  },
+  "homepage": "https://github.com/yourusername/wedding-website#readme"
+}
