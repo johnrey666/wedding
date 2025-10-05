@@ -242,3 +242,15 @@ document.addEventListener('keydown', (e) => {
         closeMapModal();
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const audio = document.getElementById('background-music');
+    audio.volume = 0.3; // 30% volume
+
+    // Resume autoplay after user gesture (handles browser policies)
+    document.addEventListener('click', function() {
+        if (audio.paused) {
+            audio.play().catch(e => console.log('Autoplay prevented:', e));
+        }
+    }, { once: true });
+});
