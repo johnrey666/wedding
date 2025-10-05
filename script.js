@@ -146,9 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Auto change every 5s
-    setInterval(() => changeSlide(1), 20000);
-    showSlide(currentSlideIndex);
+
 });
 
 // ===============================
