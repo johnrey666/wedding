@@ -375,12 +375,12 @@
             .sponsor-card {
                 padding: 2.5rem 2rem;
             }        /* Entourage Section */
-   .entourage {
-    padding: 0;
-    background: transparent;
-    position: relative;
-    overflow: visible;
-}
+        .entourage {
+            padding: 120px 0;
+            background: linear-gradient(135deg, #5a6b4d 0%, #6b7d5b 50%, #5a6b4d 100%);
+            position: relative;
+            overflow: hidden;
+        }
 
         .entourage::before {
             content: '';
